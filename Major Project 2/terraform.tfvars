@@ -1,0 +1,18 @@
+# These are your values that would be in arguments.txt
+imageid                = "ami-02873e5dcbaf2706a"
+instance-type          = "t2.micro"
+key-name               = "vagrantboxitmo544"
+vpc_security_group_ids = "sg-0d7e447126ebf2b76"
+cnt                    = 3
+install-env-file       = "install-env.sh"
+elb-name               = "itmo544lb"
+tg-name                = "itmo544tg"
+asg-name               = "pp-asgroup"
+lt-name                = "pp-launchtemp"
+db-name                = "company"
+db-name-rpl            = "company-rpl"
+iam-profile            = "EC2-Privileges-S3-ITMO544"
+sns-topic              = "pp-sns-topic"
+dynamodb-table-name    = "pp-dynamodb-table"
+raw-s3-bucket          = "s3-bucket-raw-ppatil19"
+finished-s3-bucket     = "s3-bucket-finished-ppatil19"
